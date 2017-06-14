@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-        String filePath = "./../../../../external/test.txt";
+        String filePath = "./external/test.txt";
 
 
         try {
@@ -21,7 +21,7 @@ public class Main {
             String[] textData = new String[numberOfLines];
 
             for (int i = 0; i < numberOfLines; i++) {
-                textData[ i ] = bufferedReader.readLine();
+                textData[i] = bufferedReader.readLine();
             }
 
             bufferedReader.close();
