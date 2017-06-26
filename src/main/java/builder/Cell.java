@@ -29,4 +29,12 @@ class Cell {
     public boolean isWall() {
         return isWall;
     }
+
+    public void setVisited(boolean visited) {
+        isVisited = visited;
+    }
+
+    public void setWall(boolean wall) {
+        isWall = wall;
+    }
 }
